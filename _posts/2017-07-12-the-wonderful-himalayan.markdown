@@ -7,5 +7,5 @@ description: 搞怪动作的第一天. # Add post description (optional)
 tag: [picture]
 ---
 
-> 林奔奔搞怪的一天，动作表情满分. <cite>- Lorem Ipsum</cite>
+> 林奔奔搞怪的一天，动作表情满分.
 
