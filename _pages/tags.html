@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: 分类
 permalink: /tags/
 ---
 
@@ -8,7 +8,7 @@ permalink: /tags/
 {% assign tag_words = site_tags | split:',' | sort %}
 
 <section id="tags">
-  <h1> Tags in Blog</h1>
+  <h1> 文章分类</h1>
   <ul class="tags cf">
 <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
@@ -29,6 +29,6 @@ permalink: /tags/
     {% endif %}{% endfor %}
   {% endunless %}{% endfor %}
     <div class="back_to_home">
-        <a href="{{site.baseurl}}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>        
+        <a href="{{site.baseurl}}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 返回主页</a>        
     </div>
 </section>
